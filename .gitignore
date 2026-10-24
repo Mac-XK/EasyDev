@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.xcscmblueprint
+*.xccheckout
+
+# Theos
+.theos/
+packages/
+*.deb
+
+# 本地项目
+EasyDevProjects/
+
+# 编辑器
+.vscode/
+.idea/
+
+# 备份文件
+*.bak
+*.bak.*
