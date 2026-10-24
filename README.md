@@ -62,6 +62,26 @@ brew install ldid dpkg
 
 ## 安装
 
+### 下载安装
+
+从 [Releases](https://github.com/Mac-XK/EasyDev/releases/latest) 下载 `EasyDev.dmg`，打开后将 `EasyDev.app` 拖入「应用程序」文件夹。
+
+应用未经过 Apple 签名与公证，首次打开会被系统拦截，提示：
+
+```
+"EasyDev" 无法打开，因为 Apple 无法检查其是否包含恶意软件。
+```
+
+任选一种方式放行：
+
+方式一：打开「系统设置」→「隐私与安全性」→「安全性」，在底部点击「仍要打开」。
+
+方式二：终端执行
+
+```bash
+xattr -dr com.apple.quarantine /Applications/EasyDev.app
+```
+
 ### 从源码构建
 
 ```bash
