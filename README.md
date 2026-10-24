@@ -4,6 +4,17 @@ macOS 上的 iOS Tweak 开发工具，基于 [Theos](https://github.com/theos/th
 
 通过图形界面完成环境管理、项目创建、代码编辑、编译打包，省去命令行配置。
 
+![EasyDev 首页](screenshots/home.png)
+
+### 环境管理
+
+![Theos 环境](screenshots/environment.png)
+
+### 新建项目
+
+![新建项目](screenshots/new-project.png)
+
+
 ## 目录
 
 - [功能](#功能)
