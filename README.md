@@ -52,7 +52,7 @@ brew install ldid dpkg
 ### 从源码构建
 
 ```bash
-git clone <仓库地址>
+git clone https://github.com/Mac-XK/EasyDev.git
 cd EasyDev
 open EasyDev.xcodeproj
 ```
